@@ -181,18 +181,19 @@ const Writing = () => (
       const { isMediumUserDefined } = site.siteMetadata;
 
       return (
-        isMediumUserDefined && (
-          <Section.Container id="writing" Background={Background}>
-            <Section.Header name="Writing" icon="✍️" label="writing" />
-            <CardContainer minWidth="300px">
-              {posts.map(({ Component, ...rest }) => (
-                <Fade bottom key={rest.id}>
-                  <Component {...rest} key={rest.id} />
-                </Fade>
-              ))}
-            </CardContainer>
-          </Section.Container>
-        )
+        <div></div>
+        // isMediumUserDefined && (
+        //   <Section.Container id="writing" Background={Background}>
+        //     <Section.Header name="Writing" icon="✍️" label="writing" />
+        //     <CardContainer minWidth="300px">
+        //       {posts.map(({ Component, ...rest }) => (
+        //         <Fade bottom key={rest.id}>
+        //           <Component {...rest} key={rest.id} />
+        //         </Fade>
+        //       ))}
+        //     </CardContainer>
+        //   </Section.Container>
+        // )
       );
     }}
   />
