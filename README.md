@@ -1,3 +1,1 @@
-## License 📝
 
-MIT.
